@@ -26,6 +26,12 @@
   --heo-snackbar-time: 5s;
 }
 
+/* 新增更改start */
+.aplayer-lrc p {
+  user-select: none;
+}
+/* 新增更改end */
+
 #page:has(#heoMusic-page) {
   border: 0;
   box-shadow: none !important;
