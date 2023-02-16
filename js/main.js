@@ -301,4 +301,9 @@ var JaySongsheet = [
         "lrc":"https://blogdrive.gavin-chen.top/api/raw/?path=/Music/lrc/ZJL039.lrc"
     }
 ];
-document.querySelector("meting-js").aplayer.list.add(JaySongsheet);
+var t_load = setInterval(() => {
+  if (document.querySelector("meting-js").aplayer != undefined){
+    document.querySelector("meting-js").aplayer.list.add(JaySongsheet);
+    clearInterval(t_load);
+  };
+},50);
