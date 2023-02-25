@@ -168,7 +168,7 @@ body #nav-music {
   mask-image: linear-gradient(to bottom, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000, #0000, #0000);
 }
 
-/* 字号改为36px，对应js第625行的80px改为72px */
+/* 字号改为36px，对应js第625行的80px改为72px；歌词透明度改为0.16，取消毛玻璃 */
 #heoMusic-page .aplayer-info .aplayer-lrc p {
   font-size: 36px;
   line-height: 36px;
@@ -177,8 +177,8 @@ body #nav-music {
   color: #fff;
   font-weight: bold;
   text-align: left;
-  filter: blur(1px);
-  opacity: 0.3;
+/*   filter: blur(2px); */
+  opacity: 0.16;
   transition: all 0.9s cubic-bezier(0.56, 0.17, 0.22, 0.76);
   user-select:none;
   text-shadow: 0px 2px 0px #ffffff00;
