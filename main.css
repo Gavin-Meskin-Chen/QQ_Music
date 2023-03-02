@@ -576,10 +576,10 @@ body .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon.apla
   }
 
   #heoMusic-page .aplayer-info .aplayer-lrc p {
-    font-size: 32px;
-    margin-bottom: 38px;
-    line-height: 42px;
-    height: 42px;
+    font-size: 30px;
+    margin-bottom: 36px;
+    line-height: 36px;
+    height: 36px;
   }
   #heoMusic-page .aplayer-info .aplayer-music {
     display: flex;
